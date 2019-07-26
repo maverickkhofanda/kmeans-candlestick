@@ -30,7 +30,7 @@ For 2 months
 
 ## What I learned
 * The importance of correct & sound hypotheses, **then** start working
-* Not slaving my laptop for this - now it's an old man only at 3.5 years old
+* Not slaving my laptop for this - now it's an old man at only 3.5 years old
 
 
 ## Appendices
