@@ -4,6 +4,7 @@ An attempt to classify candlestick patterns of IDX stocks by using TensorFlow k-
 Technical analysis' underlying premise is future prices is predictable through (thus, a function of) previous prices. Combined with a desire to automate stock analysis, as well as previous learnings at [edX course on machine learning](https://courses.edx.org/courses/course-v1:ColumbiaX+CSMM.101x+3T2018/course/), become a starting point for me to figure its possibility. 
 
 *(For the story TL;DR: It failed, violating the financial axiom: Past returns is bad predictor of future returns.)*
+*Please note that this was a personal side project, and thus it is not optimized for collaborative work.*
 
 ## The learning journey
 Python & machine learning fundamentals proofed not enough to even complete the testing properly. Here's the 2 months journey roughly looks like: Starting with overwhelming TensorFlow mid-level language, switching to Keras & setting its environment, speeding up training process by sampling the test-space, working out the buggy Nvidia CUDA driver, learning & applying new evaluation metric (AUC), and at last getting promising testing result - showing good AUC and low loss levels.
