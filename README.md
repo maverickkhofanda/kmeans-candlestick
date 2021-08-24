@@ -13,9 +13,9 @@ Python & machine learning fundamentals proofed not enough to even complete the t
 
 Then, I started field-testing, using actual latest price to test its reliability - to find the reliability isn't there. This misalignment leads me to retraining the model with more rigorous method. The key turns out to be the data splitting method. 
 
-Previously, the data format are 20-days price, then **binned randomly** to training, validating, and testing data. Later, this proofs to be a mistake. I experimented splitting the data based on year: 1 last year for testing, 2 previous years to validate, and the earlier years to train. Shortly, the test data agrees with the field-testing - the predictor fails.
+Previously, the data format are 20-days price, then **binned randomly** to training, validating, and testing data. Later, this proofed to be a mistake. I experimented splitting the data based on year: 1 last year for testing, 2 previous years to validate, and the earlier years to train. Shortly, the test data agrees with the field-testing - the predictor fails.
 
-Then I went a step back and consider the fundamentals: stock prices is not reliably shaped by previous days, but by news, 'pom-pom', large institutional investor, etc. Concluding the method's failure to group candlesticks (and the pressure to get a real job), I ended the experiment here.
+Then I went a step back and consider the fundamentals: stock prices is not reliably shaped by previous days, but by news, large institutional investor, 'pump-and-dump'(?) etc. Concluding this method's failure to automate making money, I ended the experiment here.
 
 ## The data journey: *pull, prepare, train, test, evaluate, improve, repeat*
 ### Pulling
@@ -32,7 +32,7 @@ The part where I'm actually thinking of & figuring better model
 For 2 months
 
 ## What I learned
-* The importance of correct & sound hypotheses, **then** start working
+* It's singularly important to have correct & sound hypotheses
 * Not slaving my laptop for this - now it's an old man at only 3.5 years old
 
 
